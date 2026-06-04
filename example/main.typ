@@ -1,5 +1,4 @@
-//#import "@preview/vivid-cv:0.1.0": *
-#import "../vivid-cv.typ": *
+#import "@preview/vivid-cv:0.1.0": *
 
 // ─────────────────────────────────────────────
 //  Personal information

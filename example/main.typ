@@ -57,7 +57,7 @@
   name-color: "#ffdf2b", // your name inside the banner
   heading-color: "#303f3c", // == section headings
   text-color: "#303f3c", // body text
-  photo-border: "ffffff", // photo ring (no leading #)
+  photo-border: "#ffffff", // photo ring
 
   // ── Typography ────────────────────────────
   font: "Avenir Next",

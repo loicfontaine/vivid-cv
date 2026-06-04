@@ -37,8 +37,8 @@
   about-below: [],
   // ── Photo ─────────────────────────────────
   show-photo: true,
-  photo: "pp.jpg",
-  photo-size: 120pt,
+  photo: "photo.jpg",
+  photo-size: 140pt,
   // ── Footer reference line ─────────────────
   // Pinned to the bottom of the page. Set to "" to hide.
   reference: "",
@@ -47,9 +47,9 @@
   name-color: "#ffdf2b",
   heading-color: "#ffdf2b",
   text-color: "#303f3c",
-  photo-border: "ffffff",
+  photo-border: "#ffffff",
   // ── Typography ────────────────────────────
-  font: "New Computer Modern",
+  font: "Avenir Next",
   author-font-size: 20pt,
   font-size: 10pt,
   // ── Layout ────────────────────────────────
@@ -173,7 +173,7 @@
           height: photo-size,
           width: photo-size,
           fill: rgb("e4e5ea"),
-          stroke: (paint: rgb("#" + photo-border), thickness: 3pt),
+          stroke: (paint: rgb(photo-border), thickness: 3pt),
           [#image(photo, width: 100%)],
         )
       ],

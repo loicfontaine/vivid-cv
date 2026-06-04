@@ -2,7 +2,9 @@
 
 A clean and modern Typst resume template based on [Basic Resume](https://github.com/stuxf/basic-typst-resume-template), with a bold header banner, contact icons, and a flexible two-column intro section.
 
-![preview](/preview.png)
+<p align="center">
+  <img src="preview.png" alt="Template preview" width="700"/>
+</p>
 
 ## Features
 

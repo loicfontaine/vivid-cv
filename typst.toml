@@ -1,6 +1,6 @@
 [package]
 name = "vivid-cv"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "vivid-cv.typ"
 authors = ["Loïc Fontaine <https://lfontaine.ch/>"]
 license = "MIT"

@@ -1,4 +1,4 @@
-#import "@preview/vivid-cv:0.1.0": *
+#import "@preview/vivid-cv:0.1.1": *
 
 // ─────────────────────────────────────────────
 //  Personal information
@@ -26,7 +26,7 @@
   // ── Photo ─────────────────────────────────
   // Set show-photo: false to remove the photo entirely.
   show-photo: true,
-  photo: "/example/photo.jpg",
+  photo: image("photo.jpg"),
   photo-size: 140pt,
 
   // ── About / intro ─────────────────────────

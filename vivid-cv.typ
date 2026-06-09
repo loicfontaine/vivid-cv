@@ -37,7 +37,7 @@
   about-below: [],
   // ── Photo ─────────────────────────────────
   show-photo: true,
-  photo: "photo.jpg",
+  photo: image("/example/photo.jpg"),
   photo-size: 140pt,
   // ── Footer reference line ─────────────────
   // Pinned to the bottom of the page. Set to "" to hide.
@@ -174,7 +174,7 @@
           width: photo-size,
           fill: rgb("e4e5ea"),
           stroke: (paint: rgb(photo-border), thickness: 3pt),
-          [#image(photo, width: 100%)],
+          [#photo],
         )
       ],
     )

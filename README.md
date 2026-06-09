@@ -19,7 +19,7 @@ A clean and modern Typst resume template based on [Basic Resume](https://github.
 ## Quick start
 
 ```typst
-#import "@preview/vivid-cv:0.1.0": *
+#import "@preview/vivid-cv:0.1.1": *
 
 #show: resume.with(
   author: "Jane Doe",
@@ -82,11 +82,11 @@ A clean and modern Typst resume template based on [Basic Resume](https://github.
 
 ### Photo
 
-| Parameter    | Type   | Default       | Description                |
-| ------------ | ------ | ------------- | -------------------------- |
-| `show-photo` | bool   | `true`        | Toggle photo column        |
-| `photo`      | string | `"photo.jpg"` | Path to image              |
-| `photo-size` | length | `140pt`       | Diameter of circular photo |
+| Parameter    | Type   | Default              | Description                |
+| ------------ | ------ | -------------------- | -------------------------- |
+| `show-photo` | bool   | `true`               | Toggle photo column        |
+| `photo`      | image  | `image("photo.jpg")` | Image function             |
+| `photo-size` | length | `140pt`              | Diameter of circular photo |
 
 ### Colors
 
